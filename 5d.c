@@ -7,8 +7,8 @@ int main() {
     printf("type a, b, c with spaces: ");
     scanf("%d%d%d", &a, &b, &c);
     D = sqrt(b * b - 4 * a * c);
-    r1 = (b * (-1) - D) / (2.0 * a);
-    r2 = (b * (-1) + D) / (2.0 * a);
+    r1 = (-b + D) / (2.0 * a);
+    r2 = -(b + D) / (2.0 * a);
     printf("roots of the equation is %f, %f", r1, r2);
     return 0;
 }
